@@ -5,7 +5,7 @@ import plotly.express as px
 pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 car_data = pd.read_csv(
-    'https://raw.githubusercontent.com/david-22/project_sprint7/main/vehicles_us.csv')
+    'https://raw.githubusercontent.com/david-22/project_sprint7/refs/heads/main/vehicles_us.csv')
 
 
 st.header('Datos sobre venta de automoviles')
